@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+/* Transição suave de rolagem */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Cabeçalho */
 .site-header {
     padding: 1rem 2rem;
@@ -428,12 +433,12 @@ body {
     font-size: 0.9rem;
     color: rgba(255,255,255,0.7);
 }
+
 /* Animations */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
 
 @media (max-width: 1024px) {
     .banner-content {
